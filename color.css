@@ -45,15 +45,6 @@ p{
     color:white;
     font-weight: bold;
 }
-.square {
-    width: 30%;
-    height: 30%;
-    float: left;
-    background: purple;
-    padding-bottom: 1.66%;
-    margin: 5px;
-}
-
 .container{
     margin: 0 auto;
     width: 600px;
