@@ -28,7 +28,7 @@ for(var i=0 ; i<6; i++)
         if(this.style.background===blocks[correctColor].style.background)
         {
             f=1;
-            isCorrect.textContent="Failed !!";
+            isCorrect.textContent="You failed :(";
             reset.classList.remove("hide");
             for(var j=0; j<blocks.length; j++)
                 {
@@ -37,7 +37,7 @@ for(var i=0 ; i<6; i++)
         }
         else if(count==5)
         {
-            isCorrect.textContent="You Win !!";
+            isCorrect.textContent="You won! :D";
             for(var k=0; k<blocks.length; k++)
                 {
                 blocks[k].style.background=blocks[correctColor].style.background;
@@ -46,7 +46,7 @@ for(var i=0 ; i<6; i++)
         }
         else
         {
-            isCorrect.textContent="Good Going";
+            isCorrect.textContent="Good going!";
             this.style.background="white";
             if(f!=1)
                 count++;
